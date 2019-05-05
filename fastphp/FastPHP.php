@@ -8,10 +8,10 @@
 
  //初始化常量
  define('ROOT') or define('ROOT',_DIR_.'/');
- define('APP_PATH') or define('APP_PATH',dirname($_SERVER['SCRIPT_FILENAME']).'/')
+ define('APP_PATH') or define('APP_PATH',dirname($_SERVER['SCRIPT_FILENAME']).'/');
  define('APP_DEBUG') or define('APP_DEBUG',FALSE);
- define('CONFIG_PATH') or define('CONFIG_PATH',APP_PATH.'config/')
- define('RUNTIME_APTH') or define('RUNTIME_APTH',APP_PATH.'runtime/')
+ define('CONFIG_PATH') or define('CONFIG_PATH',APP_PATH.'config/');
+ define('RUNTIME_APTH') or define('RUNTIME_APTH',APP_PATH.'runtime/');
  
  //类文件扩展名
  const EXT = '.class.php';
